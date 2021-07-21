@@ -1,0 +1,23 @@
+Python Basic program assignment_1:
+1.a=”Hello!”
+  print(a)
+  
+2. def func(a,b):
+    return a+b,a%b
+   func(1,2)
+   
+ 3. b=int(input("enter the base of the triangle"))
+h=int(input("enter the height of the triangle"))
+A=0.5*b*h
+print(A)
+
+4. z=(input("enter anything z"))
+y=(input("enter anything y"))
+x=z
+z=y
+y=x
+swap="after the {}  {} ".format(z,y)
+print(swap)
+
+5. a=random.randint(1,10)
+print(a)
